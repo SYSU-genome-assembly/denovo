@@ -15,8 +15,10 @@ Hu :
 We are in a **Mathematical** model contest instead of cpp contest, which means we should be foucsing more on the math. We should be comparing algorithms and analysing overall time complexity and try to modifiy a piece at a time, rather than rewriting the whole thing. That's how, in my opinion, we should make progress. Time is running short after all.
 
 I 'll try to list things that need to be done here.
+
 ###plausible steps to be taken
   * TODO: More discussion is needed here. But we already know only the  __O__ in OLC is a problem.
+
 ###paper structure
 Over the week, we've read many a paper which share the same structure as follows (Words in **Boldface** is TODO.):
   * Abstract
