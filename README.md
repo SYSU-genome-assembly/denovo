@@ -16,7 +16,7 @@ We are in a **Mathematical** model contest instead of cpp contest, which means w
 
 I 'll try to list things that need to be done here.
 ###plausible steps to be taken
-  *TODO: More discussion is needed here. But we already know only the  **O** in OLC is a problem.
+  *TODO: More discussion is needed here. But we already know only the  __O__ in OLC is a problem.
 ###paper structure
 Over the week, we've read many a paper which share the same structure as follows (Words in **Boldface** is TODO.):
   * Abstract
