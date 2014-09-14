@@ -3,8 +3,8 @@
     (LaTeX-add-bibliographies
      "elex")
     (LaTeX-add-labels
-     "t:notas"
-     "fig:my_label")
+     "fig:my_label"
+     "t:notas")
     (TeX-run-style-hooks
      "geometry"
      "right=1in"

@@ -51,11 +51,22 @@
 \cite{guangzhou12}
 \cite{guangzhou09}
 
-%话说“论文不能有页眉或任何可能显示答题人身份和所在学校等的信息。”是说上面不%能写作者名字的么……
-%大概第一二页写了就不用在正文里写了吧
+\renewcommand{\figurename}{图}
+\begin{figure}
+\centering
+\includegraphics{topp}
+\caption{据说该换图……}
+\label{fig:my_label}
+\end{figure}
 
-\section{通用符号说明及假设}
-本文符号说明如表\ref{t:notas}所示。主要假设如下：
+\section{问题分析}
+%不如这里塞连续型的方程？
+%夹菌说好的用小标题概括结论？
+\section{模型建立与求解}
+\subsection{问题一：给定尺寸的圆面折叠桌动态模型}
+\subsection{问题二：圆面折叠桌的参数优化模型}
+\subsubsection{通用符号说明及假设}
+符号说明如表\ref{t:notas}所示。主要假设如下：
 \begin{enumerate}
 \item 该公司建造桌子所用板材无厚度之分，统一使用厚度为$3cm$的木板；
 \item 该公司对木板的处理方法一致，所得木条宽度均为$2.5cm$；
@@ -84,20 +95,6 @@
 \label{t:notas}
 \end{table}
 
-\renewcommand{\figurename}{图}
-\begin{figure}
-\centering
-\includegraphics{topp}
-\caption{据说该换图……}
-\label{fig:my_label}
-\end{figure}
-
-\section{问题分析}
-%不如这里塞连续型的方程？
-%夹菌说好的用小标题概括结论？
-\section{模型建立与求解}
-\subsection{问题一：给定尺寸的圆面折叠桌动态模型}
-\subsection{问题二：圆面折叠桌的参数优化模型}
 \subsection{问题三：任意版面折叠桌的参数优化模型}
 \section{模型敏感性分析}
 \section{结论及讨论}
